@@ -16,8 +16,18 @@ Quick guide:
 Certain Servers (f.e. nominatim have strict limitations on requests. It is not recommended to use this extension for a high number of records on public servers.
 It is also recoomended to provide a valid e-mail adddress to not get blocked by the geocoding server
 
-### 3 Version history
+## 3. Version history
 
 | geocode-osm | TYPO3     | PHP       | Support/Development                            |
 |-------------|-----------|-----------|------------------------------------------------|
 | 1.0.0       | 12.x-13.x | 8.3 - 8.x | Initial Upload                                 |
+
+## 4. Support
+
+This extensions comes with absolutely no warranty. 
+
+Post issues or improvements on Github.
+
+For further support or development contact dialog@christophrunkel.de or visit www.christophrunkel.de.
+
+
