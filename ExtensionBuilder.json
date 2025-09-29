@@ -1,0 +1,42 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "This extension provides a task that generates tt_address geocoding information via OpenStreetMap instead of GoogleMaps",
+        "emConf": {
+            "category": "services",
+            "custom_category": "",
+            "dependsOn": "typo3 => 12.4.0-12.4.99",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": true,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "12.4",
+            "version": "1.0.0"
+        },
+        "extensionKey": "geocode_osm",
+        "name": "OpenStreetMap Geocoding Task",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "christoph runkel internetprojekte",
+                "email": "dialog@christophrunkel.de",
+                "name": "Christoph Runkel",
+                "role": "Product Manager"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "cri"
+    },
+    "wires": [],
+    "storagePath": "\/home\/bbqsbcwb\/www.bbqonline-test.de\/cms12_T\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2025-09-26 12:11",
+        "extension_builder_version": "12.0.0-beta.2",
+        "be_user": " (1)"
+    }
+}
