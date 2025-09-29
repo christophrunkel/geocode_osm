@@ -1,1 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="GeocodeOSM Radar Icon">
+  <title>GeocodeOSM Extension Icon</title>
+  <desc>Minimalist radar icon suitable for TYPO3 backend: outer circle, concentric arcs, sweep arm and dots.</desc>
+  <defs>
+    <style>
+      .stroke { stroke: #1E6FB6; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .fill { fill: #1E6FB6; }
+    </style>
+  </defs>
 
+  <!-- Outer ring -->
+  <circle class="stroke" cx="128" cy="128" r="104"/>
+
+  <!-- Concentric radar arcs -->
+  <!-- Inner arc -->
+  <path class="stroke" d="M 88 128                            A 40 40 0 0 1 168 128"/>
+
+  <!-- Middle arc (with gap) -->
+  <path class="stroke" d="M 64 128                            A 64 64 0 0 1 192 128"/>
+
+  <!-- Outer arc (with larger radius, shorter span for stylistic gap) -->
+  <path class="stroke" d="M 48 128                            A 80 80 0 0 1 208 128"/>
+
+  <!-- Sweep arm -->
+  <line class="stroke" x1="128" y1="128" x2="182" y2="88"/>
+
+  <!-- Dots -->
+  <circle class="fill" cx="128" cy="128" r="12"/>
+  <circle class="fill" cx="150" cy="150" r="8"/>
+  <circle class="fill" cx="182" cy="88" r="14"/>
+</svg>
