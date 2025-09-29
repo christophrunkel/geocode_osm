@@ -1,0 +1,17 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Cri\GeocodeOsm\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+
+  Cri\GeocodeOsm\Command\GeocodeCommand:
+    tags:
+      - name: 'console.command'
+        command: 'ttaddress:geocodeosm'
+        description: 'Geocode tt_address records via OpenStreetMap'
+        schedulable: true
+        hidden: false
